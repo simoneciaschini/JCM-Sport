@@ -1,4 +1,4 @@
 # Titolo  
 ## Sottotitolo
 descrizione  
-Scrivete **qualcosa** chw descriva il __progetto__  
+Scrivete **qualcosa** che descriva il __progetto__  
