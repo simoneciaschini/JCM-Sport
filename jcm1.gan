@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-12-19" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="it_IT">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="200" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="75" order="1"/>
+        <field id="tpd5" name="Data di fine" width="75" order="2"/>
+        <field id="tpd15" name="Note" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="it">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Years Day]]></date>
+        <date year="" month="1" date="6" type="HOLIDAY"><![CDATA[Epiphany]]></date>
+        <date year="" month="4" date="25" type="HOLIDAY"><![CDATA[Liberation Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labor Day]]></date>
+        <date year="" month="6" date="2" type="HOLIDAY"><![CDATA[Republic Day]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[All Saints Day]]></date>
+        <date year="" month="12" date="8" type="HOLIDAY"><![CDATA[Immaculate Conception Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="" month="12" date="26" type="HOLIDAY"><![CDATA[St. Stephen's Day]]></date>
+        <date year="2005" month="3" date="28" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2006" month="4" date="17" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2007" month="4" date="9" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2008" month="3" date="24" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2009" month="4" date="13" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2010" month="4" date="5" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2011" month="4" date="25" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2012" month="4" date="9" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2013" month="4" date="1" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2014" month="4" date="21" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2015" month="4" date="6" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2016" month="3" date="28" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2017" month="4" date="17" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2018" month="4" date="2" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2019" month="4" date="22" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2020" month="4" date="13" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2021" month="4" date="5" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2022" month="4" date="18" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2023" month="4" date="10" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2024" month="4" date="1" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2025" month="4" date="21" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2026" month="4" date="6" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2027" month="3" date="29" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2028" month="4" date="17" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2029" month="4" date="2" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2030" month="4" date="22" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2031" month="4" date="14" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2032" month="3" date="29" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2033" month="4" date="18" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+        <date year="2034" month="4" date="10" type="HOLIDAY"><![CDATA[Easter Monday]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="15" uid="9974ef1ad04e49e4a040815dcda611ad" name="JCM" meeting="false" start="2024-12-20" duration="72" complete="0" expand="true">
+            <task id="0" uid="a70a68039a8c4135a9ded6adf996c345" name="FASE DI INIZIO" meeting="false" start="2024-12-20" duration="5" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <task id="1" uid="076d416ee4b84def90b6372713de0681" name="Studio di Fattibilità" meeting="false" start="2024-12-20" duration="5" complete="0" expand="true">
+                    <depend id="3" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="2" uid="d5a2bfeedd234523a39f4d8f4dd40ea4" name="FASE DI PIANIFICAZIONE" meeting="false" start="2024-12-31" duration="11" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <task id="3" uid="200c22edefb04ed8922d8158d6534b9f" name="Pianificazione del Database" meeting="false" start="2024-12-31" duration="3" complete="0" expand="true">
+                    <depend id="4" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="4" uid="7e6a1892c0f543229892e19c02375954" name="Pianificazione Backend" meeting="false" start="2025-01-07" duration="4" complete="0" expand="true">
+                    <depend id="5" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="5" uid="3e1cefa8d0244e79b4f704cd2b18cda2" name="Pianificazione Frontend" meeting="false" start="2025-01-13" duration="4" complete="0" expand="true"/>
+            </task>
+            <task id="6" uid="7c2036bca6c446b38fdbb8471c37ceb0" name="FASE DI ESECUZIONE" meeting="false" start="2025-01-17" duration="45" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+                <task id="7" uid="341e28c9369b4c24bc0f088b7f44a2bf" name="Creazione e Test del Database" meeting="false" start="2025-01-17" duration="6" complete="0" expand="true">
+                    <depend id="8" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="8" uid="18655ee2d9174ee880c0171840524dfc" name="Sviluppo e Test del Backend" meeting="false" start="2025-01-27" duration="10" complete="0" expand="true">
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="9" uid="50651272b8b9427aa95fa59b63e8a9e3" name="Sviluppo e Test del Frontend" meeting="false" start="2025-02-10" duration="10" complete="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="10" uid="57c027c1aa644e939ece6700edd754e5" name="Integrare Frontend e Backend" meeting="false" start="2025-02-24" duration="5" complete="0" expand="true">
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="11" uid="2fa23f9b501b4e3282c61360d630a430" name="Risolvere Bug" meeting="false" start="2025-03-03" duration="14" complete="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="12" uid="03a85efc336b467981e0d0037d3b8743" name="FASE DI CHIUSURA" meeting="false" start="2025-03-21" duration="11" complete="0" expand="true">
+                <task id="13" uid="03872712a2a04558a623c4629195347c" name="Verifica finale e rilascio" meeting="false" start="2025-03-21" duration="4" complete="0" expand="true">
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="14" uid="124008fe6fe24bc088346a5ef663612b" name="Presentazione" meeting="false" start="2025-03-27" duration="7" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Fedrigo Massimo Davide" function="3" contacts="" phone=""/>
+        <resource id="1" name="Ciaschinio Simone" function="2" contacts="" phone=""/>
+        <resource id="2" name="Alam Jubayed" function="1" contacts="" phone=""/>
+        <resource id="3" name="Fedrigo Massimo Davide" function="4" contacts="" phone=""/>
+        <resource id="4" name="Ciaschini Simone" function="4" contacts="" phone=""/>
+        <resource id="5" name="Alam Jubayed" function="4" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="4" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Programmatore Fontend"/>
+        <role id="2" name="Programmatore Backend"/>
+        <role id="3" name="Programmatore Database"/>
+        <role id="4" name="Tester"/>
+    </roles>
+</project>
