@@ -1,9 +1,9 @@
 <?php
 // Dati di esempio per gli amministratori
 $admins = [
-    ['id' => 1, 'nome' => 'Mario Rossi', 'email' => 'Fedrigo.Massimo@example.com', 'ruolo' => 'Super Admin'],
-    ['id' => 2, 'nome' => 'Luigi Bianchi', 'email' => 'Ciaschini.Simone@example.com', 'ruolo' => 'Amministratore'],
-    ['id' => 3, 'nome' => 'Carla Verdi', 'email' => 'Alam.Jubayed@example.com', 'ruolo' => 'Amministratore'],
+    ['id' => 1, 'nome' => 'Fedrigo Massimo', 'email' => 'Fedrigo.Massimo@example.com', 'ruolo' => 'Super Admin'],
+    ['id' => 2, 'nome' => 'Ciaschini Simone', 'email' => 'Ciaschini.Simone@example.com', 'ruolo' => 'Amministratore'],
+    ['id' => 3, 'nome' => 'Alam Jubayed', 'email' => 'Alam.Jubayed@example.com', 'ruolo' => 'Amministratore'],
 ];
 ?>
 
