@@ -53,6 +53,23 @@ if ($conn->query($sql) === TRUE) {
     echo "Errore durante la creazione della tabella 'Badge': " . $conn->error . "<br>";
 }
 
+
+$sql= "CREATE TABLE IF NOT EXISTS Ruoli(
+)";
+if ($conn->query($sql) === TRUE) {
+    echo "Tabella 'Badge_Utenti' creata con successo.<br>";
+} else {
+    echo "Errore durante la creazione della tabella 'Badge_Utenti': " . $conn->error . "<br>";
+}
+
+$sql="CREATE TABLE IF NOT EXISTS Ruoli_Utenti(
+)";
+if ($conn->query($sql) === TRUE) {
+    echo "Tabella 'Badge_Utenti' creata con successo.<br>";
+} else {
+    echo "Errore durante la creazione della tabella 'Badge_Utenti': " . $conn->error . "<br>";
+}
+
 // Creazione della tabella Badge_Utenti
 $sql = "CREATE TABLE IF NOT EXISTS Badge_Utenti (
     id_badge_utente INT AUTO_INCREMENT PRIMARY KEY,
