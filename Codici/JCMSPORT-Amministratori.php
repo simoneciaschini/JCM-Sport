@@ -1,5 +1,5 @@
 <?php
-// Dati di esempio per gli amministratori (in un caso reale, questi potrebbero venire da un database)
+// Dati di esempio per gli amministratori
 $admins = [
     ['id' => 1, 'nome' => 'Mario Rossi', 'email' => 'Fedrigo.Massimo@example.com', 'ruolo' => 'Super Admin'],
     ['id' => 2, 'nome' => 'Luigi Bianchi', 'email' => 'Ciaschini.Simone@example.com', 'ruolo' => 'Amministratore'],
