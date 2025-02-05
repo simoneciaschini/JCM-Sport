@@ -1,0 +1,5 @@
+INSERT INTO amministratori (nome, email, ruolo)
+VALUES
+    ('Fedrigo Massimo', 'Fedrigo.Massimo@example.com', 'Super Admin'),
+    ('Ciaschini Simone', 'Ciaschini.Simone@example.com', 'Amministratore'),
+    ('Alam Jubayed', 'Alam.Jubayed@example.com', 'Amministratore');
